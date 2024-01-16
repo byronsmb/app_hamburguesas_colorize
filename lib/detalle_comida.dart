@@ -29,12 +29,11 @@ class _DetalleComidaState extends State<DetalleComida> {
 
   @override
   void didChangeDependencies() {
-    // TODO: implement didChangeDependencies
     super.didChangeDependencies();
     _width = MediaQuery.of(context).size.width - 50;
   }
 
-  BorderRadiusGeometry _borderRadius = BorderRadius.circular(9);
+  final BorderRadiusGeometry _borderRadius = BorderRadius.circular(9);
 
   @override
   Widget build(BuildContext context) {

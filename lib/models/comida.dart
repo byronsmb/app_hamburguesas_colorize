@@ -20,6 +20,6 @@ class Comida {
   final String miniDescripcion;
   final double precio;
   final String imagenUrl;
-  final String imagenExUrl;
+  final String imagenExUrl; //IMAGEN EXTENDIDA
   final Categoria categoria;
 }
